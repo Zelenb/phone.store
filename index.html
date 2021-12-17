@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Кундис КІ-44</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        header {
+            margin: 20px;
+        }
+
+        header h1 {
+            color: red;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+
+        .footer-inner-content {
+            padding: 15px;
+            border: 1px solid black;
+            box-shadow: inset 0 0 2px red;
+        }
+
+        .carousel-control-prev {
+            border-radius: 50%;
+            background-color: grey;
+            width: 30px;
+            height: 30px;
+        }
+
+        .carousel-control-next {
+            border-radius: 50%;
+            background-color: grey;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+<main class="container">
+    <div class="row">
+        <div class="col-12">
+            <header class="d-flex justify-content-center"><h1>Новинки Samsung</h1></header>
+        </div>
+        <div class="col-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 1">
+                                <span>Samsung Galaxy Note 9</span>
+                            </div>
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 2">
+                                <span>Samsung Galaxy Note 10</span>
+                            </div>
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 3">
+                                <span>Samsung Galaxy Note 11</span>
+                            </div>
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 4">
+                                <span>Samsung Galaxy Note 12</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 5">
+                                <span>Samsung Galaxy Note 20</span>
+                            </div>
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 6">
+                                <span>Samsung Galaxy Note 21</span>
+                            </div>
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 7">
+                                <span>Samsung Galaxy Note 22</span>
+                            </div>
+                            <div>
+                                <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                                     class="d-block w-75" alt="samsung 8">
+                                <span>Samsung Galaxy Note 23</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <div class="d-flex justify-content-center p-4">
+                <h3>Порівняльна характеристика</h3>
+            </div>
+            <table class="table table-bordered border-dark">
+                <thead>
+                <!--<tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>-->
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row" class="bg-primary">Модель</th>
+                    <td>Samsung Galaxy Note 9</td>
+                    <td>Samsung Galaxy Note 10 Lite </td>
+                    <td>Samsung Galaxy M21</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="bg-primary">Ціна</th>
+                    <td>14000 грн</td>
+                    <td>12000 грн</td>
+                    <td>6000 грн</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="bg-primary">Вигляд</th>
+                    <td>
+                        <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                             class="d-block w-50">
+                    </td>
+                    <td>
+                        <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                             class="d-block w-50">
+                    </td>
+                    <td>
+                        <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/SM_A515_GalaxyA51_Blue_Back.jpg"
+                             class="d-block w-50">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer class="row">
+        <div class="footer-inner-content d-flex align-items-center justify-content-center">
+            <span>© Кундис, </span>
+            <a href="https://www.linkedin.com/in/serhii-kundys-919138188">KI-44</a>
+        </div>
+    </footer>
+</main>
+
+<!-- JS-->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
